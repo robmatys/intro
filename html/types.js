@@ -6,8 +6,8 @@ var myBoolean = false;
 console.log("Name " + myString);
 console.log("Lucky Number: " + myNumber);
 console.log("Good Joke? " + myBoolean);
-
-console.log("Talk to me?");
+//Why are you reading this?
+console.log("Why are you searching me?");
 console.log(35+3.5);
 
 console.log(Math.random());
