@@ -1,13 +1,27 @@
-var myString = "Bob";
-var myNumber = 15;
-var myBoolean = false;
+var moonPhase = 'mostly full';
+var foggyNight = false;
 
-//Do not edit the code under this line
-console.log("Name " + myString);
-console.log("Lucky Number: " + myNumber);
-console.log("Good Joke? " + myBoolean);
-//Why are you reading this? (...)
-console.log("Why are you searching me?");
-console.log(35+3.5);
+if (moonPhase === 'full' && foggyNight) {
+  console.log('Howwll!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
 
-console.log(Math.random());
+switch (moonPhase) {
+  case 'full':
+    console.log('Howwwlllll!');
+    break;
+  case 'mostly full':
+    console.log('Arms and legs are getting harrier');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet');
+    break;
+  default:
+    console.log('Invalid moon phase');
+    break;
+}
